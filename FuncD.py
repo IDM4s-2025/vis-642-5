@@ -26,10 +26,10 @@ def scatter_plot(df, x_col, y_col, color_col, size_col, hover_cols):
     return fig
 
 #Uso
-df = px.data.iris()
-scatter_plot(df, 
-             x_col="sepal_width", 
-             y_col="sepal_length", 
-             color_col="species", 
-             size_col="petal_length", 
-             hover_cols=["petal_width"])
+#df = px.data.iris()
+#scatter_plot(df, 
+#             x_col="sepal_width", 
+#             y_col="sepal_length", 
+#             color_col="species", 
+#             size_col="petal_length", 
+#             hover_cols=["petal_width"])
